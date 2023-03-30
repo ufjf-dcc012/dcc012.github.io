@@ -1,29 +1,12 @@
-Tutorial CMake 
+Estrutura de Dados II 
 =======================
 
 
-O CMake é uma ferramenta de construção multiplataforma, independente de linguagem, quem vem
-se tornando padrão, emm grandes projeto, o qual é usando para construir, testar e
-implantar suas bases de código. Neste tutorial você vai aprender:
-
-- Escrever um sistema de compilação CMake para projetos C, C++ e Fortran produzindo
-  bibliotecas e/ou executáveis.
-- Executar testes para seu código com CTest.
-- Certificar-se de que seu sistema de compilação funciona em diferentes plataformas.
-- Detectar e usar dependências externas em seu projeto.
-- Construir com segurança e eficácia projetos que usam linguagens mistas (Python+C/C++,
-  Python+Fortran, Fortran+C/C++)
+Apresentaçao da disciplina
 
 .. prereq::
 
-   Antes de iniciar esse tutorial, recomenda-se ter acesso
-   a um computador com compilador para sua linguagem de programação favorita 
-   e uma versão recente do CMake.
 
-   Caso não tenha ainda esse ambiente instalado, recomendamos que você configure 
-   um ambiente de software isolado usando ``conda``. Para computadores com sistemas 
-   Windows, recomendamos usar o Subsistema para Linux (WSL). 
-   Instruções detalhadas podem ser encontradas na página :doc:`setup`.
 
 .. toctree::
    :hidden:
@@ -36,9 +19,9 @@ implantar suas bases de código. Neste tutorial você vai aprender:
 .. toctree::
    :hidden:
    :maxdepth: 1
-   :caption: Atividades
+   :caption: Ementa
 
-   hello-cmake
+   
    cmake-syntax
    hello-ctest
    environment
@@ -48,31 +31,6 @@ implantar suas bases de código. Neste tutorial você vai aprender:
    fetch-content
    python-bindings
    ..tips-and-tricks
-
-
-.. toctree::
-   :hidden:
-   :maxdepth: 1
-   :caption: Topicos Adicionais
-
-   .. cxx-fortran
-
-.. see also the schedule in guide.rst
-
-.. csv-table::
-   :widths: auto
-   :delim: ;
-
-   30 min ; :doc:`hello-cmake`
-   30 min ; :doc:`cmake-syntax`
-   30 min ; :doc:`hello-ctest`
-   30 min ; :doc:`environment`
-   30 min ; :doc:`probing`
-   40 min ; :doc:`targets`
-   40 min ; :doc:`dependencies`
-   40 min ; :doc:`fetch-content`
-   30 min ; :doc:`python-bindings`
-
 
 
 .. toctree::
